@@ -1,0 +1,59 @@
+body {
+font-family: 'Montserrat', sans-serif;	
+}
+
+#container {
+	width: 600px;
+	height: 260px;
+	margin-top: 80px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ee6d23;
+	position: relative;
+	z-index: 999;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+
+}
+
+#image {
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 510px;
+}
+
+#container h1 {
+	padding-top: 20px;	
+
+}
+
+input {
+	border: 1px dashed #fff;
+	background-color: #ee6d23;
+	font-size: 20px;
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+	color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+
+.button{
+	background-color: #38b6b5;
+	color: #fff;
+	margin-top: 15px;
+}
